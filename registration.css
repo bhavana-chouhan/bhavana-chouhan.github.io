@@ -1,0 +1,113 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+.container{
+    width: 400px;
+    height: 650px;
+    background-color: rgba(203, 212, 216, 0.293);
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading{
+    padding-top: 10px;
+}
+.heading h1{
+    color: rgb(10, 10, 116);
+    font-family: 'Courier New', Courier, monospace;
+}
+.heading p{
+    color: rgb(14, 9, 107);
+    font-family: 'Courier New', Courier, monospace;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.more{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 255, 0.384);
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+.form{
+    margin-bottom: 15px;
+    width: 319px;
+    display: flex;
+    gap: 20px;
+}
+.form2{
+    width: 10px;
+    display: flex;
+    gap: 18px;
+}
+.a{
+   margin-top: 13px;
+}
+input{
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 1px solid #383838;
+    background: #fff;
+}
+input:focus{
+    box-shadow: none;
+    outline: 0;
+}
+.more{
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+}
+.more a:hover{
+    color: black;
+}
+.continue{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.submit{
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: #092c79;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+.submit:hover{
+    background-color: gray;
+}
+.signup{
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    position: relative; 
+    cursor: pointer;
+}
+.signup:hover{
+    background-color: gray;
+}
+.create{
+    text-align: center;
+    position: relative;
+}
+.create hr{
+    position: absolute;
+    z-index: 0;
+    bottom: 8px;
+    width: 100%;
+}
